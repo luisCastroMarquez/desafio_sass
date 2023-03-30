@@ -1,0 +1,56 @@
+$fuente: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+*{
+    background-color: #5422ea;
+}
+
+
+.card {
+    padding: 5px 5px;
+
+    img {
+        border-radius: 5%;
+    }
+}
+
+
+.card-body.text-center {
+    padding: 5px 5px;
+    font-family: $fuente;
+    font-style:italic;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    .card-title.text-primary {
+        background-color: #ffffff;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+    .card-text {
+        background-color: #ffffff;
+        display: flex;
+        text-align: start;
+    }
+
+    .btn.btn-primary {
+        width: 295px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+$theme-colors: (
+    'primary': #582a98,
+);
+
+$border-radius: 0.5rem;
+
+$spacer: 1.5rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
